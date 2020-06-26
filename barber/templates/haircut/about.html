@@ -1,0 +1,48 @@
+{% extends 'haircut/base.html'%}
+  {% block content %}{% load static %}
+  <div class="container">
+    <div class="jumbotron">
+          <h1 class="abt" style="font-size:500%";>About page</h1>
+      <div class="row">
+    <div class="column">
+      <img src="{% static 'img/barb/b1.jpg' %}" alt="Snow" width="250" height="300" style="vertical-align:middle;margin:10px 0px">
+    </div>
+    <div class="column">
+      <img src="{% static 'img/barb/b2.jpg' %}" alt="Forest" width="250" height="300" style="vertical-align:middle;margin:10px 5px">
+    </div>
+    <div class="column">
+      <img src="{% static 'img/barb/g10.jpg' %}" alt="Mountains" width="250" height="300" style="vertical-align:middle;margin:10px 0px">
+    </div>
+    <div class="column">
+      <img src="{% static 'img/barb/about-img2.jpg' %}" alt="Mountains" width="250" height="300" style="vertical-align:middle;margin:10px 5px">
+    </div>
+  </div>
+
+
+
+<h5 class="txt">Nasz biznes rozrósł się od skromnych początków do markowego klienta, który zaczyna doceniać i idolizować naszą pracę. Nasza przygoda rozpoczęła się od stylizacji włosów, ale wychodząc naprzeciw oczekiwaniom klientów, poszerzyliśmy swoją działalność, tak, aby niezależnie od płci, rasy, czy  wieku, otrzymali klasyczne i trwałe fryzury, dobrane specjalnie dla nich. Nasza misja to urzeczywistnić fantazje naszych cenionych klientów poprzez zapewnienie najwyższej jakości obsługi klienta. Zależy nam, by stworzyć z klientem długotrwałe relacje, chcemy by Państwo do nas wracali.</h5>
+  </div>
+  </div>
+
+{% endblock %}
+
+
+
+<!--- <div class="col-lg-3 col-sm-6 col-md-3">
+  <div class="single-service">
+    <img class="img-fluid" src="{% static 'img/service/service2.jpg' %}" alt="">
+    <h4>Quality Gel Shave</h4>
+  </div>
+</div>
+<div class="col-lg-3 col-sm-6 col-md-3">
+  <div class="single-service">
+    <img class="img-fluid" src="{% static 'img/service/service3.jpg' %}" alt="">
+    <h4>Beard Trimming</h4>
+  </div>
+</div>
+<div class="col-lg-3 col-sm-6 col-md-3">
+  <div class="single-service">
+    <img class="img-fluid" src="{% static 'img/service/service4.jpg' %}" alt="">
+    <h4>{{barb.name}}</h4>
+  </div>
+</div> -->
